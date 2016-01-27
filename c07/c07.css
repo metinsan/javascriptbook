@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+body {
+
+    font-family: "Oswald", "Futura", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    text-indent: -1000px;
+    height: 75px;
+    line-height: 75px;
+    width: 117px;
+    margin: 0 auto 0 auto;
+    padding: 30px 10px 20px 10px;
+}
+
+ul {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #ec8b68;
+    color: #fff;
+    border-top: 1px solid #fe9772;
+    border-bottom: 1px solid #9f593f;
+    font-size: 24px;
+    letter-spacing: .05em;
+    list-style-type: none;
+    text-shadow: 2px 2px 1px #9f593f;
+    text-align: left;
+    height: 50px;
+    padding-left: 1em;
+    padding-top: 10px;
+}
+
+.favorite {
+    background-image: url('icon-heart.png');
+    background-position: right, center;
+    background-repeat: no-repeat;}
